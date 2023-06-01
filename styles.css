@@ -1,0 +1,32 @@
+.scorecards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scorecard {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.graph-container {
+  margin-top: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+#graph-canvas {
+  height: 300px;
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
